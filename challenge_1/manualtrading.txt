@@ -1,0 +1,9 @@
+Problem:
+
+different tradable goods with different trading quotes. Goal is to maximize the trading profit
+and the constraints are that we have to start and end with the product seashells and also that
+we can only make 5 trades maximum
+
+solved the problem with the shortest path algorithm by djikstra
+instead of multiplying the quotes we added the log(4-quotes) together
+because the highest quote was 3.1
