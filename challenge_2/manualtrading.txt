@@ -1,0 +1,17 @@
+problem:
+we have a good that is tradable and a counterparty that wants to trade with the all the participants.
+the counterparty however will only trade in the prices between 9000 and 11000 seashells.
+and the counterparty will only trade with the 50% lowest offers
+also the teams that traded with the counterparty will buy back the good at the average price
+that the counterparty traded the good in the first place
+
+solution:
+we start by assuming a normal distribution of offers prices.
+also i inlcude a percentage for teams that just don't want to loose money in this challenge
+so these teams will offer the good at the highest possible price of 11000.
+this will give us a mean price of around 10100 so we would offer our goods at slightly below 10100
+
+Now we do this procedure multiple times assuming that for every further step
+the amount of teams that will do this decreases.
+
+I have read that we should do this about 3 times
